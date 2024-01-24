@@ -1,3 +1,34 @@
+# Folder Structure
+
+myproject/
+│
+├── backend/ # Backend code
+│ ├── app/ # Application module
+│ │ ├── init.py # Initialize Flask app
+│ │ ├── routes/ # Flask routes
+│ │ ├── models/ # MongoDB models
+│ │ ├── static/ # Static files (CSS, JavaScript, Images)
+│ │ └── templates/ # HTML templates
+│ ├── tests/ # Automated tests
+│ ├── venv/ # Virtual environment for Python packages
+│ ├── requirements.txt # Python dependencies
+│ ├── config.py # Configuration file
+│ └── run.py # Entry point to run the Flask app
+│
+├── frontend/ # Frontend code (React, Vue, Angular, etc.)
+│ ├── public/ # Static files
+│ │ └── index.html
+│ ├── src/ # Frontend source files
+│ │ ├── components/ # Reusable components
+│ │ ├── views/ # Pages
+│ │ ├── App.js # Main app component
+│ │ └── ...
+│ ├── package.json # Frontend dependencies
+│ └── ...
+│
+├── .gitignore # Specifies intentionally untracked files to ignore
+└── README.md # Project overview and instructions
+
 # Repository Template
 
 [![Build Status](https://app.travis-ci.com/melaasar/cs130-template.svg?branch=master)](https://app.travis-ci.com/github/melaasar/cs130-template)
